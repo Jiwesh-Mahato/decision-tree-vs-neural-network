@@ -8,7 +8,7 @@ A machine learning research project comparing the performance, interpretability,
 
 This project trains and evaluates two fundamentally different supervised learning algorithms — a CART-based Decision Tree and a Multi-Layer Perceptron Neural Network — on the same dataset, under identical experimental conditions, to compare their accuracy, interpretability, and training efficiency.
 
-Full write-up available in [`Decision_Tree_vs_Neural_Network_Research_Paper.pdf`](./paper/Research%20Paper%20.pdf).
+Full write-up available in [`Decision_Tree_vs_Neural_Network_Research_Paper.pdf`](./paper/Decision%20Tree%20vs%20Neural%20Network%20Research%20Paper.pdf).
 
 ## Dataset
 
