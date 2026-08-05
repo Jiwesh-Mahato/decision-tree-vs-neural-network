@@ -8,7 +8,7 @@ A machine learning research project comparing the performance, interpretability,
 
 This project trains and evaluates two fundamentally different supervised learning algorithms — a CART-based Decision Tree and a Multi-Layer Perceptron Neural Network — on the same dataset, under identical experimental conditions, to compare their accuracy, interpretability, and training efficiency.
 
-Full write-up available in [`Decision_Tree_vs_Neural_Network_Research_Paper.pdf`](./paper/Decision%20Tree%20vs%20Neural%20Network%20Research%20Paper.pdf).
+Full write-up available in [Decision_Tree_vs_Neural_Network_Research_Paper.pdf](./paper/Decision_Tree_vs_Neural_Network_Research_Paper.pdf).
 
 ## Dataset
 
@@ -25,11 +25,15 @@ The [Iris dataset](https://archive.ics.uci.edu/dataset/53/iris) (Fisher, 1936): 
 **Decision Tree feature importances:
 **petal length (0.906) was overwhelmingly the most predictive feature, followed by petal width (0.077), sepal width (0.017), and sepal length (0.000) — confirming that petal measurements alone are nearly sufficient to classify Iris species.
 
-![Decision Tree Visualization](./images/decision_tree_diagram.png)
+![Decision Tree Visualization](./images/Decision%20Tree%20Diagram.png)
+![Decision Tree Confusion Matrix](./images/Decision%20Tree%20confusion%20matrix.png)
+
 
 The Neural Network's single misclassification involved a versicolor sample predicted as virginica — the two most visually similar species in the dataset.
 
-![Neural Network Loss Curve](./images/nn_loss_curve.png)
+![Neural Network Loss Curve](./images/Neural%20Network%20loss%20curve.png)
+![Neural Network Confusion Matrix](./images/Neural%20Network%20confusion%20matrix.png)
+![Softmax Output — Predicted Probability Distribution](./images/Softmax%20output%20chart.png)
 
 ## Repository Structure
 ├── notebooks/
